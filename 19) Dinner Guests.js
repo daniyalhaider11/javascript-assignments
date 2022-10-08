@@ -2,3 +2,6 @@
 // print a message indicating the number of people you are inviting to dinner.
 
 // AWNSER:
+
+let guest = ["Hammad", "Muneeb", "Tehreem", "Ghazal"];
+console.log(guest.length);

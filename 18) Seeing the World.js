@@ -15,3 +15,14 @@
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
 // AWNSER:
+
+let locations = ["Egypt", "Germany", "Russia", "Dubai", "New York", "London", "Italy"];
+console.log("Location: ", locations);
+console.log("Sorted Location: ", locations.slice().sort());
+console.log("Original Location: ", locations);
+console.log("Sorted Reverse Location: ", locations.slice().sort().reverse());
+console.log("Original Location: ", locations);
+console.log("Reversed Order of Location: ", locations.reverse());
+console.log("Re-Reversed Order of Location: ", locations.reverse());
+console.log("Sorted Location: ", locations.sort());
+console.log("Sorted Reverse Location: ", locations.reverse());

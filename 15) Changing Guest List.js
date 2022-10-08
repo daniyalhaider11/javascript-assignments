@@ -6,3 +6,9 @@
 // • Print a second set of invitation messages, one for each person who is still in your list.
 
 // AWNSER:
+
+let guest = ["Hammad", "Muneeb", "Tehreem", "Ghazal"];
+console.log(`${guest.slice(-1)} not be able to join the dinner`);
+guest = guest.slice(0, -1);
+guest.push("Daniyal Haider");
+console.log(`Dear ${guest.slice(-1)}, have for you dinner with me.`);

@@ -3,3 +3,6 @@
 // The text of each message should be the same, but each message should be personalized with the person’s name.
 
 // AWNSER:
+
+const names = ["Hammad", "Muneeb", "Tehreem", "Ghazal"];
+names.map((name) => console.log(`Hello ${name}, Today i'm going to meet my favorite teacher Sir Zia Khan in Web 3.0 & Metaverse Development Class at Bharia Auditorium`));

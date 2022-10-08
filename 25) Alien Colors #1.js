@@ -6,3 +6,9 @@
 // (The version that fails will have no output.)
 
 // AWNSER:
+
+let alien_color = "green";
+if (alien_color === "green")
+console.log("player just earned 5 points");
+if (alien_color === "red")
+console.log("if you are seeing this that means i am wrong");

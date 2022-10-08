@@ -3,3 +3,6 @@
 // Make sure you correct the error before closing the program.
 
 // AWNSER:
+
+let guests = ["Sir Zia" , "Sir Daniyal"]
+console.log(guests[2]);

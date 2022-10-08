@@ -4,3 +4,8 @@
 // Then write one sentence describing what the program does.
 
 // AWNSER:
+
+let name = "Daniyal Haider"; // Declare variable :name.
+console.log(`"Hello, ${name} ,would you like to learn javascript today?"`);
+//print name with  message.
+

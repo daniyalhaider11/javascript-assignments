@@ -9,3 +9,15 @@
 // Print your list to make sure you actually have an empty list at the end of your program.
 
 // AWNSER:
+
+let guests = ["Hammad", "Muneeb", "Tehreem", "Ghazal"];
+console.log("I can only invite two peoples now");
+console.log(`I am sorry, I can't invite you ${guests.pop()}`);
+console.log(`I am sorry, I can't invite you ${guests.pop()}`);
+console.log(`I am sorry, I can't invite you ${guests.pop()}`);
+guests.map((name) =>
+console.log(`Dear ${name}, have for you dinner with me.`)
+);
+guests.pop();
+guests.pop();
+console.log("Guest List: ", guests);

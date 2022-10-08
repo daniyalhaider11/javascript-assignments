@@ -3,3 +3,10 @@
 // Print your message.
 
 // AWNSER:
+
+var quote = "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do."
+var famous_person = "Mark Twain";
+
+var message = `${famous_person} once said, “${quote}”`;
+
+console.log(message);

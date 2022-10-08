@@ -3,3 +3,6 @@
 // Write a program that creates a list containing these items.
 
 // AWNSER:
+
+let languages = ["Urdu", "Punjabi", "english"];
+console.log(languages);

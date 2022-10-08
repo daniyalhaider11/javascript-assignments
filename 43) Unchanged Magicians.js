@@ -4,3 +4,10 @@
 // Call show_magicians() with each array to show that you have one array of the original names and one array with the Great added to each magician’s name.
 
 // ANWSER:
+
+const magician = ["john", "joe", "jim"];
+const show_magicians = (arr) => {
+arr.map((idx) => console.log(idx));
+};
+console.log("Original Array");
+show_magicians(magician);

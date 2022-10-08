@@ -2,3 +2,6 @@
 // Write a program that creates Objects containing these items.
 
 // AWNSER:
+
+let person = {firstName:"Daniyal", lastName:"Haider"};
+console.log(person);

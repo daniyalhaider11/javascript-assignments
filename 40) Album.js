@@ -7,3 +7,15 @@
 // Make at least one new function call that includes the number of tracks on an album.
 
 // AWNSER:
+
+const make_album = (artist_name, album_title, track = 0) => {
+    console.log({
+    "Artist Name": artist_name,
+    "Album Title": album_title,
+track: track,
+    });
+};
+make_album("Hammad", "ajeeb dastan hy");
+make_album("Muneeb", "Waqat asan hy");
+make_album("Tehreem", "Zindgi haseen ha");
+make_album("Ghazal", "Zindgi haseen ha", 20);

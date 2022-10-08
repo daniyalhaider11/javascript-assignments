@@ -3,3 +3,7 @@
 // Print that message.
 
 // AWNSER:
+
+const favNumber = 8;
+
+console.log(`My favorite number is: ${favNumber}`);

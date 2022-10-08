@@ -4,3 +4,9 @@
 // Then print the name after striping the white spaces.
 
 // AWNSER:
+
+const username = '\t \t \t Daniyal Haider \n \n';
+const trimmedUsername = username.trim();
+
+console.log(`Before: ${username}`);
+console.log(`After: ${trimmedUsername}`);

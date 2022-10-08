@@ -9,3 +9,12 @@
 // If 'John' has been used, 'JOHN' should not be accepted.
 
 // AWNSER:
+
+let current_users = ["user1", "user2", "user3", "user4", "admin"];
+let new_users = ["user11", "user22", "user3", "user44", "admin"];
+
+new_users.map((idx) => {
+if (current_users.includes(idx.toLowerCase())) {
+    console.log(idx, " you will need to enter a new username");
+} else console.log("username is available");
+});

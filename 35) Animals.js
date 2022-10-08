@@ -5,3 +5,11 @@
 // You could print a sentence such as Any of these animals would make a great pet.
 
 // AWNSER:
+
+let animal = ["dog", "cat", "rabbit"];
+let statement = {
+dog: "A dog will make a great pet",
+cat: "cat is funny",
+rabbit: "rabbit is fluffy",
+};
+animal.map((idx) => console.log(`${statement[idx]}`));
